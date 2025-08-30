@@ -23,7 +23,7 @@ export const App = () => (
           </NavLink>
 
           <NavLink
-            to={`/tabs`}
+            to="/tabs"
             className={({ isActive }) =>
               classNames('navbar-item', { 'is-active': isActive })
             }
